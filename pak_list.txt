@@ -22,6 +22,7 @@ mysql-connector
 Naked
 numpy
 openpyxl
+packaging
 pefile
 Pillow
 pip
@@ -47,6 +48,7 @@ sip
 six
 soupsieve
 sqlparse
+toml
 urllib3
 wordcloud
 xlrd
