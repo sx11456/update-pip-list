@@ -3,7 +3,6 @@
 
 
 import os
-from subprocess import call
 
 
 # mode=1时获取当前所有包，否则只获取有更新的包
@@ -20,7 +19,7 @@ def update_pak(pak_list, mode=None):
     command = 'pip install ' if mode == 1 else 'pip install --upgrade '
     print('开始更新/安装 %d 个包……' % len(pak_list))
     for pak in pak_list:
-        call(command + pak)
+        os.system(command + pak)
 
 
 def main():
