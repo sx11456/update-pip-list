@@ -5,7 +5,11 @@
 
 平时会在好几台电脑上面切换，安装包就不同步；或者一段时间之后发现要升级好多个包，逐个pip install太麻烦了
 
-搞了个简单的小工具，运行bat即可（linux版以后再更新吧）
+搞了个简单的小工具
+
+windows下执行update.bat即可
+
+linux下可以直接cd到这个目录下，输入python3 update-pip-list.py执行；也可以输入sh update.sh执行
 
 
 
