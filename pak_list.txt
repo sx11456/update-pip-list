@@ -58,3 +58,4 @@ Werkzeug
 wordcloud
 xlrd
 xlwt
+test
