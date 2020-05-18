@@ -25,6 +25,7 @@ modulegraph
 mysql-connector
 Naked
 numpy
+openccpy
 openpyxl
 packaging
 pefile
@@ -58,3 +59,4 @@ Werkzeug
 wordcloud
 xlrd
 xlwt
+zhconv
